@@ -114,18 +114,18 @@ $('#yes').click(function() {
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi cho anh <3'
+        confirmButtonText: 'Gửi cho anh nè <3'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Anh biết mà ^^ nhớ bé lươn 3000',
+                title: 'Anh biết mà ^^ nhớ bé lươn 3000 <3',
                 text: "Còn giờ thì chờ gì nữa mà ko inbox cho anh đi nàoooooo, hí hí",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'http://fb.com';
+                    window.location = 'http://fb.com/caotientrongdat';
                   }
             })
         }
