@@ -14,11 +14,11 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'He luu bé lươn!',
+        title: 'heluuu bé lươn!',
         text: 'anh có điều này muốn hỏi bé lươn nhớ phải trả lời thật lòng nhó <3',
         imageUrl: 'img/cuteluon.jpg',
-        imageWidth: 300,
-        imageHeight: 300,
+        imageWidth: 400,
+        imageHeight: 400,
         background: '#fff url("img/iput-bg.jpg")',
         imageAlt: 'Custom image',
       }).then(function(){
@@ -100,7 +100,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='tại sao nè'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
