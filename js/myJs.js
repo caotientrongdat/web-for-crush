@@ -107,8 +107,6 @@ $('#yes').click(function() {
               url("img/lover.gif")
               left top
               right top
-              left down
-              right down
               no-repeat
             `,
         showCancelButton: true,
