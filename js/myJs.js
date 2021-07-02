@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'heluuu bé lươn!',
-        text: 'anh có điều này muốn hỏi bé lươn nhớ phải trả lời thật lòng nhó <3',
+        title: 'Heluuu bé lươn!',
+        text: 'Anh có điều này muốn hỏi bé lươn nhớ phải trả lời thật lòng nhó <3',
         imageUrl: 'img/cuteluon.jpg',
         imageWidth: 400,
         imageHeight: 400,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì anh đẹp trai vl :<<<<<<< ";
+    var text = " Tại vì anh đẹp trai vl :vvv ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -100,7 +100,7 @@ $('#yes').click(function() {
         html: true,
         width: 900,
         padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='ví dụ: a đỉnh vl hí hí'>",
+        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='ví dụ Anh đỉnh vl hí hí'>",
         background: '#fff url("img/iput-bg.jpg")',
         backdrop: `
               rgba(0,0,123,0.4)
@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Thôi ngại lắm í :<<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
